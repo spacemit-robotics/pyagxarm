@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>pyagxarm</name>
+  <version>0.1.0</version>
+  <description>Pinned pyAgxArm vendor source with SpacemiT Robot SDK packaging</description>
+  <maintainer email="robot_team@spacemit.com">robot_team</maintainer>
+  <license>LGPL-3.0-only</license>
+  <system_depend check="python3 -c 'import can'">python3-can</system_depend>
+  <system_depend check="python3 -c 'import typing_extensions'">python3-typing-extensions</system_depend>
+  <export><build_type>cmake</build_type></export>
+</package>
