@@ -12,6 +12,6 @@ if(NOT revision STREQUAL "e7aef17d54cac80cbaeb1b4110ab3d8f1337a95b")
     message(FATAL_ERROR "Unexpected pyAgxArm revision")
 endif()
 install(DIRECTORY pyAgxArm DESTINATION ${CMAKE_INSTALL_DATADIR}/pyagxarm
-    PATTERN "__pycache__" EXCLUDE PATTERN "*.pyc" EXCLUDE PATTERN ".log" EXCLUDE)
+    PATTERN "__pycache__" EXCLUDE PATTERN "*.pyc" EXCLUDE PATTERN "*.log" EXCLUDE)
 install(FILES LICENSE UPSTREAM_COMMIT README.vendor.md
     DESTINATION ${CMAKE_INSTALL_DATADIR}/pyagxarm)
